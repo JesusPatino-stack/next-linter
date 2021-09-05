@@ -37,15 +37,13 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 
 npm i -D babel-eslint eslint-config-airbnb eslint eslint-plugin-jsx-a11y eslint-plugin-import eslint-plugin-react eslint-plugin-react-hooks
 
-npm i -D babel-eslint
-
 npm i -D eslint-config-prettier eslint-plugin-prettier
 
-created the file .eslintrc.json
+echo replace  > .eslintrc.json
 
 Also, install ESLint extension for VSCode.
 
-.eslintignore
+echo replace  > .eslintignore
 
 add these scripts to package.json 
 "scripts": {
@@ -54,7 +52,7 @@ add these scripts to package.json
 }
 and modify the routes of your lint target files as necessary
 
-create .prettierrc file
+echo replace  > .prettierrc
 
 CTRL+SHIFT+p
 ESLint: Restart ESLint Server
